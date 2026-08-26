@@ -16,7 +16,7 @@ def bootstrap():
 
     app.run(port=3000, debug=True)
 
-
+app = bootstrap()
 
 if __name__ == '__main__':
-    bootstrap() 
+    app.run(port=3000)
