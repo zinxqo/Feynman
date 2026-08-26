@@ -1,0 +1,61 @@
+@font-face{
+    font-family: "PixelifySans";
+    src: url(PixelifySans-VariableFont_wght.ttf);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "PixelifySans";
+
+    background-image: url("cozy-room-gif.gif");
+
+    background-size: contain;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    background-color: #1a1a24;
+
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+
+    transform: translate3d(0,0,0);
+    will-change:transform;
+}
+
+button {
+    font-family: "PixelifySans";
+}
+
+input {
+    font-family: "PixelifySans";
+    width: 200px;
+}
+
+.study-box {
+    align-items: center;
+    background-color: rgba(6, 192, 209, 0.6); 
+    margin: auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height:400px;
+    gap: 10px;
+    border-radius: 20px;
+
+}
+
+dialog {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
