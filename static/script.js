@@ -14,7 +14,7 @@ teachButton.onclick = async function() {
 
     try {
 
-        const response = await fetch("http://localhost:3000/chat-gpt-ai/message", {
+        const response = await fetch("/chat-gpt-ai/message", {
             method: "POST",
             headers: {
 
